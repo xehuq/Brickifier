@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width" />
+
+  <!-- Favicon and title -->
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/827704831702466632/878747610490482718/icons8-code-96.png">
+  <title>Brickifier</title>
+
+  <!-- Halfmoon CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+  <!--<link href="https://pringlecpp.glitch.me/darker-theme.css" rel="stylesheet" />
+    Or,
+    Use the following (no variables, supports IE11):
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+    Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
+  -->
+</head>
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- First comes the modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-navbar-fixed-bottom">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">
+        <img src="https://cdn.discordapp.com/attachments/827704831702466632/878747610490482718/icons8-code-96.png" alt="Our Logo">
+        Brickifier
+      </a>
+      <span class="navbar-text text-monospace">v1.0</span> <!-- text-monospace = font-family shifted to monospace -->
+      <!-- Navbar nav -->
+      <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Notifers</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Docs</a>
+        </li>
+      </ul>
+      <!-- Navbar form (inline form) -->
+      <form class="form-inline d-none d-md-flex ml-auto" action="..." method="..."> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px), ml-auto = margin-left: auto -->
+        <input type="text" class="form-control" placeholder="Webhook Link" required="required">
+        <button class="btn btn-primary" type="submit">Enable</button>
+      </form>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Sidebar start -->
+
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+      <div class="content-wrapper">
+        <!-- Container-fluid -->
+        <div class="container-fluid">
+          <div class="card">
+            <h2 class="card-title">
+              New Items Notifer
+              <!-- Badges -->
+              <a> </a>
+              <span class="badge">Suggested</span>
+              <span class="badge badge-primary">New</span>
+            </h2>
+            <a href="#new-items" class="btn btn-primary" role="button">Enable</a>
+          </div>
+          <div class="card">
+            <h2 class="card-title">
+              Special Items Notifer
+              <!-- Badges -->
+              <a> </a>
+              <span class="badge badge-primary">New</span>
+            </h2>
+            <a href="#special-items" class="btn btn-primary" role="button">Enable</a>
+          </div>
+        </div>
+      </div>
+    <!-- Content wrapper end -->
+
+    <!-- Navbar fixed bottom start -->
+    <nav class="navbar navbar-fixed-bottom">
+      
+    </nav>
+    <!-- Navbar fixed bottom end -->
+
+  </div>
+  <!-- Page wrapper end -->
+
+  <!-- Halfmoon JS -->
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+</html>
